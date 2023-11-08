@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Croissant+One&family=Edu+TAS+Beginner&family=Pixelify+Sans&display=swap" rel="stylesheet">
+    <title>Formulario</title>
+</head>
+<body>
+    <div class="uno">
+        <nav class="nav">
+            <p id="primero"></p>
+            <h1>Inicio</h1>
+            <div><a href="#primero">Inicio</a></div>
+            <div><a href="#Segundo">Datos personales</a></div>
+            <div><a href="#Tercero">Sobre ti</a></div>
+        </nav>
+        <div class="Inicio">
+        
+            <h1>Aarón Ortiz Sánchez</h1>
+            <h2>Presentación de la web de la empresa</h2>
+            <p>¡Bienvenidos a nuestra página web! Como parte de nuestro compromiso con la transparencia y la comunicación abierta, hemos creado dos formularios para que nuestros nuevos empleados puedan presentarse y compartir información relevante con sus jefes y compañeros de equipo.
+            </p>
+            <h2>Formulario 1: Datos Personales</h2>
+            <p>Este formulario está diseñado para recopilar tus datos personales</p>
+            <h2>Formulario 2: Aficiones, Gustos y Sugerencias</h2>
+            <p>El segundo formulario está destinado a conocer tus aficiones, gustos y sugerencias para mejorar estos aspectos. Queremos saber qué te gusta hacer en tu tiempo libre, cuáles son tus pasatiempos favoritos y cómo crees que podemos mejorar como empresa. Este formulario nos ayudará a crear un ambiente de trabajo más agradable y productivo.</p><br>
+            <p>Estos formularios son una oportunidad para que te presentes a tus jefes y compañeros de equipo de una manera estructurada y profesional. 
+                Te animamos a que los rellenes con sinceridad y detalle. Tu información será tratada con confidencialidad y solo se utilizará para mejorar la comunicación y la colaboración dentro de nuestro equipo.
+
+                ¡Gracias por tomarte el tiempo para completar estos formularios! Estamos emocionados de tenerte en nuestro equipo y estamos ansiosos por conocerte mejor. Si tienes alguna pregunta o necesitas ayuda para completar los formularios, no dudes en ponerte en contacto con nosotros. ¡Bienvenido a bordo!</p>
+        </div>
+    </div>
+    <div class="dos">
+        <nav class="nav2">
+            <p id="Segundo"></p>
+            <h1>Datos personales</h1>
+            <div><a href="#primero">Inicio</a></div>
+            <div><a href="#Segundo">Datos personales</a></div>
+            <div><a href="#Tercero">Sobre ti</a></div>
+        </nav>
+        <div class="Formulario">
+            <h1>Datos personales</h1>
+            <form action="/action_page.php">
+                <div>
+                    <label for="fname">Nombre:</label><br>
+                    <input type="text" id="fname" name="fname" required pattern="^[a-zA-ZáéíóúÁÉÍÓÚñÑ ]+$"><br>
+                </div>
+                <div>
+                    <label for="lname">Apellidos:</label><br>
+                    <input type="text" id="lname" name="lname" required pattern="^[a-zA-ZáéíóúÁÉÍÓÚñÑ ]+$"><br>
+                </div>
+                <div>
+                    <label for="address">Dirección:</label><br>
+                    <input type="text" id="address" name="address" required pattern="[A-Za-z0-9\s,./]{1,100}"><br>
+                </div>
+                <div>
+                    <label for="phone">Número de teléfono:</label><br>
+                    <input type="tel" id="phone" name="phone" required pattern="[0-9]{3}[0-9]{3}[0-9]{3}"><br>
+                </div>
+                <div>
+                    <label for="username">Correo:</label><br>
+                    <input type="text" id="username" name="username"  required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br>
+                </div>
+                
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+                <div>
+                    <input type="reset" value="reset"><br>
+                </div>
+
+            </form>
+            
+        </div>
+    </div>
+    <div class="tres">
+        <nav class="nav3">
+            <p id="Tercero"></p>
+            <h1>Sobre ti</h1>
+            <div><a href="#primero">Inicio</a></div>
+            <div><a href="#Segundo">Datos personales</a></div>
+            <div><a href="#Tercero">Sobre ti</a></div>
+        </nav>
+        <div class="Formulario2">
+            <h1>Sobre ti</h1>
+            <form action="/action_page.php">
+           
+               
+                <p>¿A que eres aficionado? </p>
+                <div>
+                    <textarea id="aficiones" name="aficiones" rows="4" cols="50" placeholder="Escribe tus aficiones aquí..."></textarea><br>
+                </div>
+                <p>¿Cuales son tus gustos personales? </p>
+                <div>
+                    <textarea id="gustos" name="gustos" rows="4" cols="50" placeholder="Escribe tus gustos personales aquí..."></textarea><br>
+                </div>
+                <p>Sugerencias</p>
+                <div>
+                    <textarea id="Sugerencias" name="Sugerencias" rows="4" cols="50" placeholder="Escribe tus sugerencias sobre que debemos mejorar aquí..."></textarea><br>
+                </div>
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+                <div>
+                    <input type="reset" value="reset">
+                    </div>
+                    <p>Acepto enviar mis datos</p> 
+                    <input type="checkbox" id="dataConsent" name="dataConsent" value="accepted">
+                   
+                    
+                
+                
+                
+                
+            </form>
+            
+        </div>
+    </div>
+</body>
+</html>

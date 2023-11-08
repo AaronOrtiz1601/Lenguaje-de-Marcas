@@ -1,0 +1,437 @@
+    @keyframes apariciónSimultánea {
+        0% {
+            opacity: 0;
+            transform: translateY(-50px);
+        }
+        100% {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .nav {
+        animation: apariciónSimultánea 0.5s ease-in-out;
+    }
+    .Inicio  {
+        animation: apariciónSimultánea 1s ease-in-out;
+    }
+    .nav2 {
+        animation: apariciónSimultánea 1.5s ease-in-out;
+    }
+    .Formulario {
+        animation: apariciónSimultánea 2s ease-in-out;
+    }
+    .nav3 {
+        animation: apariciónSimultánea 2.5s ease-in-out;
+    }
+    .Formulario2 {
+        animation: apariciónSimultánea 3s ease-in-out;
+    }
+
+
+
+    *{
+        margin: 0;
+        padding: 0;
+    }
+    input{
+        border-radius: 10px;
+
+    }
+    h1{
+    display:flex;
+        justify-content: top;
+        align-items: top;
+    
+
+    }
+    label {
+        display: block; 
+        margin-bottom: 5px;
+    }
+    
+    input[type="text"] {
+        width: 100%; 
+        padding: 10px;
+        border: 1px solid #ccc; 
+        border-radius: 5px; 
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+    input[type="tel"] {
+        width: 100%; 
+        padding: 10px;
+        border: 1px solid #ccc; 
+        border-radius: 5px; 
+        font-size: 16px;
+        margin-bottom: 10px;
+        invalid {
+            border: 2px solid #ff0000;
+        }
+    }
+    textarea {
+        width: 100%; 
+        padding: 4px; 
+        border: 1px solid #ccc; 
+        border-radius: 5px; 
+        font-size: 16px; 
+        resize: vertical; 
+    }
+    input[type="submit"]
+    {
+        width: 100%; 
+        padding: 5px;
+        border: 1px solid #17a0aa; 
+        border-radius: 5px; 
+        font-size: 16px;
+        margin-bottom: 5px;
+        background-color: #17a0aa;
+    }
+     .Formulario [type="submit"]
+    {
+        width: 100%; 
+        padding: 5px;
+        border: 1px solid #004566; 
+        border-radius: 5px; 
+        font-size: 16px;
+        margin-bottom: 5px;
+        background-color:#004566;
+        color: #00a9ec ;
+        font-family: 'Croissant One', serif;
+    }
+    .Formulario [type="reset"]
+    {
+        width: 100%; 
+        padding: 5px;
+        border: 1px solid #004566; 
+        border-radius: 5px; 
+        font-size: 16px;
+        margin-bottom: 5px;
+        background-color:#004566;
+        color: #00a9ec ;
+        font-family: 'Croissant One', serif;
+    }
+    @media (hover: hover) {
+        input[type="submit"]:hover {
+            cursor: pointer;
+        }
+    }
+    input[type="reset"]
+    {
+        width: 100%; 
+        padding: 5px;
+        border: 1px solid #17a0aa; 
+        border-radius: 5px; 
+        font-size: 16px;
+        margin-bottom: 5px;
+        background-color: #17a0aa;
+        font-family: 'Croissant One', serif;
+    }
+    @media (hover: hover) {
+        input[type="reset"]:hover {
+            cursor: pointer;
+        }
+    }
+        
+
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        overflow-y: hidden;
+        
+    
+    }
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px;
+        text-align: center;
+
+    }
+    .uno{
+        background-color: rgba(0, 0, 255, 0);
+        width: 100vw;
+        height: 100vh;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+    .dos{
+        background-color: rgba(255, 0, 0, 0);
+        width: 100vw;
+        height: 100vh;
+
+    }
+    .tres{
+        background-color: rgba(255, 0, 0, 0);
+        width: 100vw;
+        height: 100vh;
+        
+    }
+    .nav{
+        width: 20vw;
+        height: 100vh;
+        font-size: 5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-shadow: 1px 1px 1px;
+        box-shadow: 1px 1px 1px;
+    
+        background-color: #272046;
+        font-family: 'Croissant One', serif;
+    
+    }
+    .nav > div {
+        height: 35vh;
+        background-color:#e37efc;
+        width: 15vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        text-shadow: 1px 1px 1px;
+        box-shadow: 1px 1px 1px;
+        border-radius: 5%;
+        transition: transform 0.3s;
+    
+    }
+    .nav h1{
+        color:#513678;
+    }
+
+    .nav2{
+        width: 20vw;
+        height: 100vh;
+        font-size: 5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-shadow: 1px 1px 1px;
+        box-shadow: 1px 1px 1px;
+        background-color:#00749b;
+        font-family: 'Croissant One', serif;
+        color: #00faff;
+    
+        
+        
+    }
+    .nav2 > div {
+        height: 35vh;
+        background-color:#00b0d5;
+        width: 15vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        text-shadow: 1px 1px 1px;
+        box-shadow: 1px 1px 1px;
+        border-radius: 5%;
+        transition: transform 0.3s;
+    }
+    .nav3{
+        width: 20vw;
+        height: 100vh;
+        font-size: 5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-shadow: 1px 1px 1px;
+        box-shadow: 1px 1px 1px;
+        background-color:#12252c;
+        font-family: 'Croissant One', serif;
+        color: #20dbd9;
+    
+        
+        
+    }
+    .nav3 > div {
+        height: 35vh;
+        background-color:#12444b;
+        width: 15vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        text-shadow: 1px 1px 1px;
+        box-shadow: 1px 1px 1px;
+        border-radius: 5%;
+        transition: transform 0.3s;
+    }
+    @media (hover: hover) {
+        .nav > div:hover {
+            background: #8c57b6;
+            transform: scale(1.1);
+        }
+    }
+    @media (hover: hover) {
+        .nav >div :hover {
+            
+            color: #272046;
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+    }
+    @media (hover: hover) {
+        .nav2 > div:hover {
+            background: #00a9ec;
+            transform: scale(1.1);
+        }
+    }
+    @media (hover: hover) {
+        .nav2 >div :hover {
+            
+            color: #003a5b;
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+    }
+    @media (hover: hover) {
+        .nav3 > div:hover {
+            background: #20dbd9;
+            transform: scale(1.1);
+        }
+    }
+    @media (hover: hover) {
+        .nav3 >div :hover {
+            
+            color: #17a0aa;
+            transform: scale(1.1);
+            cursor: pointer;
+        }
+    }
+
+    .Formulario {
+        background-color: #00233a;
+        width: 80vw;
+        height: 100vh;
+        text-shadow: 1px 1px 1px;
+        box-shadow: 1px 1px 1px;
+        margin-right: 1%;
+        font-family: 'Croissant One', serif;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+
+    .Formulario div {
+        margin: 20px;
+        margin-bottom: 10px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        background-color: #004566;
+        border-radius: 5px;
+        text-align: center;
+        transition: background-color 0.3s;
+        cursor: pointer;
+        display: flex;
+        color: #00a9ec;
+        
+    }
+
+    .Formulario h1{
+        color: #00faff;
+        font-family: 'Anton', sans-serif;
+        font-family: 'Croissant One', serif;
+    }
+
+
+
+
+    .Formulario2{
+        background-color: #126c75;
+        width: 80vw;
+        height: 100vh;
+        text-shadow: 1px 1px 1px;
+        box-shadow: 1px 1px 1px;
+        margin-right: 1%;
+        font-family: 'Croissant One', serif;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    .Formulario2 div {
+        margin: 20px;
+        margin-bottom: 10px; 
+        padding: 10px;
+        border: 1px solid #ccc;
+        background-color:#17a0aa;
+        border-radius: 5px;
+        text-align: center;
+        transition: background-color 0.3s;
+        cursor: pointer;
+        display: flex;
+        color: #00a9ec;
+        
+    }
+    .Formulario2 p {
+        color:#20dbd9;
+    }
+    .Formulario2 h1{
+    color: #12252c;
+    font-family: 'Anton', sans-serif;
+    font-family: 'Croissant One', serif;
+    }
+    .Inicio {
+        background: linear-gradient(rgba(164, 145, 197, 0.218), rgba(157, 142, 183, 0.059)), url("https://www.xtrafondos.com/wallpapers/resoluciones/19/edificios-ciudad-de-noche_1920x1080_3183.jpg");
+        background-size: cover;
+        background-attachment: fixed;
+        width: 80vw;
+        height: 100vh;
+        text-shadow: 1px 1px 1px;
+        box-shadow: 1px 1px 1px;
+        margin-right: 1%;
+        font-family: 'Croissant One', serif;
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .Inicio p {
+        background-color: #272046c8; 
+        padding: 10px; 
+        border: 1px #272046; 
+        border-radius: 5px; 
+        margin: 10px 0; 
+        color: #e37efc;
+        text-shadow: #ffffff;
+        font-family: 'Croissant One', serif;
+    }
+    .Inicio h2{
+        color: rgb(235, 154, 255);
+        background-color: #272046c8; 
+        padding: 10px; 
+        border: 1px #272046; 
+        border-radius: 5px; 
+        text-shadow: #ffffff;
+        font-family: 'Anton', sans-serif;
+        font-family: 'Croissant One', serif;
+    
+    }
+    .Inicio h1{
+        color: rgb(235, 154, 255);
+        background-color: #272046c8;
+        padding: 10px; 
+        border: 1px #272046; 
+        border-radius: 5px; 
+        text-shadow: #fffdfd;
+        font-family: 'Anton', sans-serif;
+         font-family: 'Croissant One', serif;
+         
+    
+    }
+    
+
+    
+
+
+
+
+
