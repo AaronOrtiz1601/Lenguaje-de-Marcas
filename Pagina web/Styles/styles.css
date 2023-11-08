@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #b39fe1;
+    box-shadow: 1px 1px 1px;
+}
+.Inicio
+{
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+.text
+{
+display: flex;
+flex-direction: column;
+}
+.nav
+{
+    display: flex;
+    flex-direction: wrap;
+    align-items: center;
+    justify-content: center;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-y: hidden;
+    
+
+}
+div{
+    
+    justify-content: center;
+    align-items: center;
+    border: 1px;
+    text-align: center;
+
+}
