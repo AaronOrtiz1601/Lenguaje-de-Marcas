@@ -11,6 +11,13 @@
     align-items: center;
     justify-content: center;
 }
+.registro
+{
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
 .text
 {
 display: flex;
@@ -22,6 +29,20 @@ flex-direction: column;
     flex-direction: wrap;
     align-items: center;
     justify-content: center;
+}
+.nav > div {
+    height: 10vh;
+    background-color:#7ed8fc8b;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    text-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px;
+    border-radius: 5%;
+    transition: transform 0.3s;
+
 }
 body{
     display: flex;
@@ -39,4 +60,53 @@ div{
     border: 1px;
     text-align: center;
 
+}
+.nav2
+{
+    display: flex;
+    flex-direction: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.nav2  div {
+    height: 10vh;
+    background-color:#7ed8fc8b;
+    width: 10vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    text-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px;
+    border-radius: 5%;
+    transition: transform 0.3s;
+
+}
+.Formulario {
+    background-color: #00233a;
+    width: 100vw;
+    height: 80vh;
+    text-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px;
+    margin-right: 1%;
+    font-family: 'Croissant One', serif;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.Formulario div {
+    margin: 20px;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    background-color: #004566;
+    border-radius: 5px;
+    text-align: center;
+    transition: background-color 0.3s;
+    cursor: pointer;
+    display: flex;
+    color: #00a9ec;
+    
 }
