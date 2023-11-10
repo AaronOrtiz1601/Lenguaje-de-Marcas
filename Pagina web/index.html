@@ -8,6 +8,7 @@
 </head>
 <body>
     <div class="Inicio">
+        <p id="principio"></p>
     <header>
         <h1>Viaja por el Cosmere</h1>
     </header>
@@ -26,18 +27,20 @@
     <p>hfd</p><br>
     <p>hfd</p><br>
     <p>hfd</p><br>
+    
+    
 </div>
 
     <nav class="nav">
-        <p id="inicio"></p>
         <div><a href="#registro">Registrarse</a></div>
         <div><a href="#InicioSes">Iniciar de sesión</a></div>
     </nav>
-    <footer>
-        <h1>Viaja por el Cosmere</h1>
-    </footer>
     </div>
     <div class="registro">
+        <p id="registro"></p>
+        <header>
+            <h1>Viaja por el Cosmere</h1>
+        </header>
         <div class="Formulario">
             <h1>Datos personales</h1>
             <form action="/action_page.php">
@@ -73,12 +76,55 @@
             
         </div>
         <nav class="nav2">
-            <p id="registro"></p>
-        <div><a href="#inicio">Registrarse</a></div>
-        <div><a href="#InicioSes">Iniciar de sesión</a></div>
+        <div><a href="#principio">vuelta al inicio</a></div>
+        <div><a href="#principio">Registrarse</a></div>
         </nav>
     </div>
-    <div class="class"></div>
+    <div class="InicioSes">
+        <p id="InicioSes"></p>
+        <header>
+            <h1>Viaja por el Cosmere</h1>
+        </header>
+        <div class="Formulario2">
+            <h1>Datos personales</h1>
+            <form action="/action_page.php">
+                <div>
+                    <label for="fname">Nombre:</label><br>
+                    <input type="text" id="fname" name="fname" required pattern="^[a-zA-ZáéíóúÁÉÍÓÚñÑ ]+$"><br>
+                </div>
+                <div>
+                    <label for="lname">Apellidos:</label><br>
+                    <input type="text" id="lname" name="lname" required pattern="^[a-zA-ZáéíóúÁÉÍÓÚñÑ ]+$"><br>
+                </div>
+                <div>
+                    <label for="address">Dirección:</label><br>
+                    <input type="text" id="address" name="address" required pattern="[A-Za-z0-9\s,./]{1,100}"><br>
+                </div>
+                <div>
+                    <label for="phone">Número de teléfono:</label><br>
+                    <input type="tel" id="phone" name="phone" required pattern="[0-9]{3}[0-9]{3}[0-9]{3}"><br>
+                </div>
+                <div>
+                    <label for="username">Correo:</label><br>
+                    <input type="text" id="username" name="username"  required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"><br>
+                </div>
+                
+                <div>
+                    <input type="submit" value="Submit">
+                </div>
+                <div>
+                    <input type="reset" value="reset"><br>
+                </div>
+
+            </form>
+            
+        </div>
+        <nav class="nav3">
+        <div><a href="#principio">vuelta al inicio</a></div>
+        <div><a href="#InicioSes">Iniciar sesión</a></div>
+        </nav>
+
+    </div>
 
 </body>
 </html>
