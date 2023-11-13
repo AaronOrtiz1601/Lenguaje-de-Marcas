@@ -31,6 +31,11 @@ flex-direction: column;
 height: 80vh;
 background-color: #146682;
 color: #20dad8;
+font-family: 'Croissant One', serif;
+font-size: large;
+}
+.text p{
+    font-size: xx-large;
 }
 
 .nav
@@ -84,10 +89,11 @@ div{
     justify-content: center;
     width: 100vw;
     height: 20vh;
+    background-color: #cff1f7;
 }
 .nav2  div {
     height: 13vh;
-    background-color:#7ed8fc8b;
+    background-color:#86a1fb;
     width: 10vw;
     display: flex;
     justify-content: center;
@@ -107,10 +113,11 @@ div{
     flex-direction: wrap;
     align-items:baseline;
     justify-content: center;
+    background-color: #ffcaf4;
 }
 .nav3  div {
     height: 13vh;
-    background-color:rgba(248, 252, 126, 0.545);
+    background-color:#d995fa;
     width: 10vw;
     display: flex;
     justify-content: center;
@@ -120,10 +127,11 @@ div{
     box-shadow: 1px 1px 1px;
     border-radius: 5%;
     transition: transform 0.3s;
+    color:#ffcaf4;
 
 }
 .Formulario {
-    background-color: #00233a;
+    background-color:#4d5f9d;
     width: 100vw;
     height: 80vh;
     text-shadow: 1px 1px 1px;
@@ -141,17 +149,17 @@ div{
     margin-bottom: 10px;
     padding: 10px;
     border: 1px solid #ccc;
-    background-color: #004566;
+    background-color:#1c2640;
     border-radius: 5px;
     text-align: center;
     transition: background-color 0.3s;
     cursor: pointer;
     display: flex;
-    color: #00a9ec;
+    color:#cff1f7;
     
 }
 .Formulario2 {
-    background-color: #00233a;
+    background-color:#6d6ec2;
     width: 100vw;
     height: 80vh;
     text-shadow: 1px 1px 1px;
@@ -159,8 +167,9 @@ div{
     margin-right: 1%;
     font-family: 'Croissant One', serif;
     display: flex;
-    justify-content: center;
+    justify-content:flex-start;
     flex-direction: column;
+   
 
 }
 
@@ -175,7 +184,7 @@ div{
     transition: background-color 0.3s;
     cursor: pointer;
     display: flex;
-    color: #00a9ec;
+    color: #6d6ec2;
     
 }
 @media (hover: hover) {
@@ -208,14 +217,14 @@ div{
 }
 @media (hover: hover) {
     .nav3 > div:hover {
-        background: #20dbd9;
+        background: #121728;
         transform: scale(1.1);
     }
 }
 @media (hover: hover) {
     .nav3 >div :hover {
         
-        color: #17a0aa;
+        color: #146682;
         transform: scale(1.1);
         cursor: pointer;
     }

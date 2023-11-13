@@ -392,6 +392,7 @@
         font-family: 'Croissant One', serif;
         display: flex;
         flex-direction: column;
+        font-size: larger;
         
     }
     .Inicio p {
