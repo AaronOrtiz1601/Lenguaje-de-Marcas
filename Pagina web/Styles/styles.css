@@ -1,7 +1,26 @@
+@keyframes apariciónSimultánea {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+header  {
+    animation: apariciónSimultánea 1s ease-in-out;
+}
+.text {
+    animation: apariciónSimultánea 1.5s ease-in-out;
+}
+.nav  {
+    animation: apariciónSimultánea 2s ease-in-out;
+}
 * {
     margin: 0;
     padding: 0;
-    box-shadow: 1px 1px 1px;
+    
 }
 .Inicio
 {
@@ -33,9 +52,11 @@ background-color: #146682;
 color: #20dad8;
 font-family: 'Croissant One', serif;
 font-size: large;
+box-shadow: 1px 1px 1px;
 }
 .text p{
     font-size: xx-large;
+    box-shadow: 1px 1px 1px;
 }
 
 .nav
@@ -50,7 +71,7 @@ font-size: large;
    
 }
 .nav > div {
-    height: 13vh;
+    height: 10vh;
     background-color:#1da2ba;
     width: 10vw;
     display: flex;
@@ -70,6 +91,8 @@ body{
     align-items: center;
     flex-direction: column;
     overflow-y: hidden;
+    box-shadow: 1px 1px 1px;
+    
     
 
 }
@@ -92,7 +115,7 @@ div{
     background-color: #cff1f7;
 }
 .nav2  div {
-    height: 13vh;
+    height: 10vh;
     background-color:#86a1fb;
     width: 10vw;
     display: flex;
@@ -116,7 +139,7 @@ div{
     background-color: #ffcaf4;
 }
 .nav3  div {
-    height: 13vh;
+    height: 10vh;
     background-color:#d995fa;
     width: 10vw;
     display: flex;
@@ -232,8 +255,27 @@ div{
 header
 {
 background-color: #121728;
+height:10vh ;
+justify-content: center;
+align-items: center;
+text-align: center;
+display: flex;
 }
 header h1
 {
     color:#146682;
+    text-align: center;
+    padding-top: 12px;
 }
+.img{
+    padding: 10px;
+    padding-top: 15px;
+    align-items: center;
+    text-align: center;
+
+}
+.miImagen {
+    width: 5vw;  /* Cambia esto al ancho que desees */
+    height: 10vh;  /* Esto mantendrá las proporciones de la imagen */
+}
+
