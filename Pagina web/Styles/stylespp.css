@@ -84,9 +84,9 @@ body{
    
 }
 .mundos > div {
-    height: 40vh;
+    height: 36vh;
     background-color:#1da2ba;
-    width:40vw;
+    width:36vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -95,7 +95,7 @@ body{
     box-shadow: 1px 1px 1px;
     border-radius: 5%;
     transition: transform 0.3s;
-    color: #20dad8;
+    color: #002653;
 
 }
 .roshar{
@@ -171,9 +171,9 @@ body{
    
 }
 .mundos2 > div {
-    height: 40vh;
+    height: 36vh;
     background-color:#1da2ba;
-    width:40vw;
+    width:36vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -193,8 +193,135 @@ body{
 @media (hover: hover) {
     .mundos >div :hover {
         
+        color: #045170;
+        transform: scale(1.1);
+        cursor: pointer;
+    }
+}
+@media (hover: hover) {
+    .mundos2 > div:hover {
+        transform: scale(1.1);
+    }
+}
+@media (hover: hover) {
+    .mundos2 >div :hover {
+        
         color: #00a9ec;
         transform: scale(1.1);
         cursor: pointer;
     }
 }
+.roshar :link {
+    color: #15355c;
+    text-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px;
+}
+.roshar :visited {
+    color:#15355c;
+    text-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px;
+}
+
+.roshar :active {
+    color: #15355c;
+    text-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px;
+}
+.nalthis :link {
+    color: #a4b3ff;
+    text-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px;
+}
+.nalthis :visited {
+    color:#a4b3ff;
+    text-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px;
+}
+
+.nalthis :active {
+    color: #a4b3ff;
+    text-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px;
+}
+.scadrial :link {
+    color: #a4b3ff;
+    text-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px;
+}
+.scadrial :visited {
+    color:#a4b3ff;
+    text-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px;
+}
+
+.scadrial :active {
+    color: #a4b3ff;
+    text-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px;
+}
+.elantris :link {
+    color: #a4b3ff;
+    text-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px;
+}
+.elantris :visited {
+    color:#a4b3ff;
+    text-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px;
+}
+
+.elantris :active {
+    color: #a4b3ff;
+    text-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px;
+}
+.arena :link {
+    color: rgb(10, 29, 48);
+    text-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px;
+}
+.arena :visited {
+    color:rgb(10, 29, 48);
+    text-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px;
+}
+
+.arena :active {
+    color: rgb(10, 29, 48);
+    text-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px;
+}
+.arcanum :link {
+    color: rgb(10, 29, 48);
+    text-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px;
+}
+.arcanum :visited {
+    color:rgb(10, 29, 48);
+    text-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px;
+}
+
+.arcanum :active {
+    color: rgb(10, 29, 48);
+    text-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px;
+}
+.prj :link {
+    color: rgb(10, 29, 48);
+    text-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px;
+}
+.prj :visited {
+    color:rgb(10, 29, 48);
+    text-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px;
+}
+
+.prj :active {
+    color: rgb(10, 29, 48);
+    text-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px;
+}
+
+
