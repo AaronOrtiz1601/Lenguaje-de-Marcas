@@ -278,4 +278,64 @@ header h1
     width: 5vw;  /* Cambia esto al ancho que desees */
     height: 10vh;  /* Esto mantendrá las proporciones de la imagen */
 }
+@media only screen and (max-width: 768px) {
+    .nav {
+        flex-direction: wrap;
+        height: auto;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .nav > div {
+        width: 25%;
+        margin: 5px 0;
+    }
+
+    .nav2,
+    .nav3 {
+        height: auto;
+    }
+
+    .nav2 > div,
+    .nav3 > div {
+        width: 25%;
+        margin: 5px 0;
+    }
+
+    .Formulario,
+    .Formulario2 {
+        height: auto;
+        
+    }
+
+    .miImagen {
+        width: 40%; /* Ajusta el ancho según tus necesidades */
+        height: auto;
+    }
+    .text
+    {
+ 
+    height: auto;
+    }
+    .Inicio
+{
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    width: auto;
+    height: auto;
+    flex-direction: wrap;
+}
+header h1
+{
+    color:#146682;
+    text-align:center;
+    padding-left: 160px;
+   
+}
+}
 

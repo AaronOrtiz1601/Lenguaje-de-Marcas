@@ -323,5 +323,21 @@ body{
     text-shadow: 1px 1px 1px;
     box-shadow: 1px 1px 1px;
 }
+.cosmere :link {
+    color: #a4b3ff;
+    text-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px;
+}
+.cosmere :visited {
+    color:#a4b3ff;
+    text-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px;
+}
+
+.cosmere :active {
+    color: #a4b3ff;
+    text-shadow: 1px 1px 1px;
+    box-shadow: 1px 1px 1px;
+}
 
 
