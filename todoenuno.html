@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title><!-- PON UN TITULO A LA PÁGINA QUE SE ENFADA FRANCIS--></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+
+
+    <link rel="stylesheet" href="" > <!-- ENLAZA LA PÁGINA DE CSS -->
+    
+    <!--
+        <meta http-equiv="refresh" content="60"> Refresca la página cada x segundos
+
+        <meta name="author" content="Nombre del autor" /> 
+
+        <meta name="copyright" content="Propietario" />
+    -->
+
+</head>
+<body>
+
+    <!-- ------------------------------------------------------------------------------------------------------- -->
+
+    <!-- Texto en css. Propiedades
+    
+        color, text-align, text-transform (establece el texto en mayúsculas, minúsculas…), direction (rtl / ltr), text-orientation,
+        letter-spacing, text-shadow, line-height, font-weight 
+
+        A tener en cuenta, de dentro hacia fuera ====> padding -> border -> margin
+    -->
+
+    <!-- 
+        imagen -> src
+        background image -> url
+        link -> href
+        a -> href
+    -->
+
+    <!-- 
+        Listas sin orden
+                <ul>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+
+        Listas con orden
+
+            type="1"	Números
+            type="A"	letras mayúsculas
+            type="a"	letras minúsculas
+            type="I"	números romanos en mayúsculas
+            type="i"	números romanos en minúsculas
+
+                <ol type=”1”>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ol>
+    -->
+
+    <!-- ------------------------------------------------------------------------------------------------------- -->
+        
+        <!-- Secciones => header, nav, section, article, aside, footer-->
+
+        <!-- Pseudoclases ===> Todo lo comenzado por :  ===> :link, :visited, :active, :hover, :focus, :focus-within etc-->
+
+    <!-- ------------------------------------------------------------------------------------------------------- -->
+
+    <!--
+        display: flex / block / inline / none
+
+        display: flex
+        justify-content: center / flex-start / flex-end / space-around / space-evenly / space-between
+        align-items: center / flex-start / flex-end
+        flex-direction: row / column
+        flex-wrap: wrap
+    -->
+    <!-- ------------------------------------------------------------------------------------------------------- -->
+
+    <!-- 
+        Variables en css:
+
+        :root{
+            --variable1: "lo que sea"
+            --variable2: "otra cosa"
+        }
+
+        para luego usar una variable:
+        var(--variablex)
+    -->
+
+    <!--
+        Diseño responsive:
+
+        @media (1024px < width <= 1200px)
+
+        @media (768px < width <= 1024px)
+
+        @media (540px < width <= 768px)
+
+        @media (width <= 540px)
+
+
+    -->
+
+
+    <!-- ------------------------------------------------------------------------------------------------------- -->
+
+    <!-- Tabla genérica de 7x6 + header -->
+
+    <!-- Si quieres quitar el espacio entre bordes, en css:
+
+    border-collapse: collapse;
+    
+    Si quieres dejar el espacio entre bordes:
+
+    border-collapse: separate;-->
+    <table>
+        <th>
+            <td>Cabecera Columna1</td>
+            <td>Cabecera Columna2</td>
+            <td>Cabecera Columna3</td>
+            <td>Cabecera Columna4</td>
+            <td>Cabecera Columna5</td>
+        </th>
+        <tr>
+            <td>Columna0</td>
+            <!-- Como ejemplo, unimos en la columna 1 la fila 1 con la 2. Usamos rowspan = "Número de filas a unir. 
+                Se cuenta ella como 1, por lo que mínimo debemos poner 2"-->
+            <td rowspan="2">Fila1 Columna1</td>
+            <td>Fila1 Columna2</td>
+            <td>Fila1 Columna3</td>
+            <td>Fila1 Columna4</td>
+            <td>Fila1 Columna5</td>
+        </tr>
+        <tr>
+            <td>Columna0</td>
+            <!--<td>Fila2 Columna1</td> Comento esta fila para el rowspan-->
+            <td>Fila2 Columna2</td>
+            <td>Fila2 Columna3</td>
+            <td>Fila2 Columna4</td>
+            <td>Fila2 Columna5</td>
+        </tr>
+        <tr>
+            <td>Columna0</td>
+            <td>Fila3 Columna1</td>
+            <td>Fila3 Columna2</td>
+            <td>Fila3 Columna3</td>
+            <td>Fila3 Columna4</td>
+            <td>Fila3 Columna5</td>
+        </tr>
+        <tr>
+            <td>Columna0</td>
+            <td colspan="5">Fila4 Columna1</td>
+            <!-- Para unir filas -> colspan ="Número de columnas a unir"
+            <td>Fila4 Columna2</td>
+            <td>Fila4 Columna3</td>
+            <td>Fila4 Columna4</td>
+            <td>Fila4 Columna5</td> -->
+        </tr>
+        <tr>
+            <td>Columna0</td>
+            <td>Fila5 Columna1</td>
+            <td>Fila5 Columna2</td>
+            <td>Fila5 Columna3</td>
+            <td>Fila5 Columna4</td>
+            <td>Fila5 Columna5</td>
+        </tr>
+        <tr>
+            <td>Columna0</td>
+            <td>Fila6 Columna1</td>
+            <td>Fila6 Columna2</td>
+            <td>Fila6 Columna3</td>
+            <td>Fila6 Columna4</td>
+            <td>Fila6 Columna5</td>
+        </tr>
+        <tr>
+            <td>Columna0</td>
+            <td>Fila7 Columna1</td>
+            <td>Fila7 Columna2</td>
+            <td>Fila7 Columna3</td>
+            <td>Fila7 Columna4</td>
+            <td>Fila7 Columna5</td>
+        </tr>
+
+      </table>
+
+    <!-- ------------------------------------------------------------------------------------------------------- -->
+
+    <!-- Formulario genérico -->
+    <!-- action => Enlace al que se dirige el formulario, method = "post / get" Con post no se ven los valores del formulario en el enlace-->
+
+    <form action="" method="post">
+
+        <div>
+            <!-- tipo text => label + input con todas las opciones -->
+            <label for="nombreACoincidirConLabel">hola:</label>
+            <input type="text" id="nombreACondicirConLabel" name="nombre" placeholder="lo que aparece hasta que pones algo" 
+                                                            pattern="" maxlenght="50" minlength="10" required readonly>
+
+            <!--
+                pattern = [A-ZÑa-zñ] Una letra. 
+                
+                Si es infinito y mínimo 0 carácteres, [A-ZÑa-zñ]*   
+                Si es infinito y mínimo 1 carácter [A-ZÑa-zñ]+
+                De 0 a 1 carácter [A-ZÑa-zñ]?
+
+                Para añadir espacios al patrón =>                   \s
+                Para añadir un punto al patrón =>                   \.
+                Para añadir una barra invertida =>                  \\
+                Para añadir " =>                                    \"
+                Para establecer un mínimo y máximo de carácteres => {nºMín, nºMáx} => [A-ZÑa-zñ]{8,16}
+            -->
+
+            <!-- tipo password => label + input con lo mínimo -->
+            <label for="nombreACoincidirConLabel">hola:</label>
+            <input type="password" id="nombreACondicirConLabel" name="nombre">
+
+            <!-- tipo email => label + input con lo mínimo -->
+            <label for="nombreACoincidirConLabel">hola:</label>
+            <input type="email" id="nombreACondicirConLabel" name="nombre">
+
+            <!-- tipo radiobutton => Cada opción con su etiqueta -->
+            <label for="nombreParaRadioButton">Título del radiobutton</label>
+            <div> <!-- Para más comodidad hago div por cada pareja label + input. Los nombres que sean iguales deben coindicir -->
+                <input type="radio" id="nombreACondicirParaLabel1" name="nombreParaRadioButton" value="Opcional para nuestro curso" checked> 
+                <label for="nombreACoincidirParaLabel1">opción1</label>
+            </div>                                                  <!-- Del value se saca el valor en java para trabajar en backend -->
+            <div>                                                   <!-- name debe coincidir en todas para que funcione -->
+                <input type="radio" id="nombreACondicirParaLabel2"  name="nombreParaRadioButton" value="Opcional para nuestro curso"> 
+                <label for="nombreACoincidirParaLabel2">opción2</label>
+            </div>
+            <div>
+                <input type="radio" id="nombreACondicirParaLabel3" name="nombreParaRadioButton" value="Opcional para nuestro curso"> 
+                <label for="nombreACoincidirParaLabel3" >opción3</label>
+            </div>
+
+            <!-- tipo checkbox => Cada opción debe ser type checkbox -->
+
+            <label>Título del checkbox</label>
+            <div> <!-- Para más comodidad hago div por cada pareja label + input. Los nombres que sean iguales deben coindicir -->
+                <input type="checkbox" id="nombreACondicirParaLabel1" name="nombreParacheckbox1" value="Opcional para nuestro curso" checked> 
+                <label for="nombreACoincidirParaLabel1" >opción1</label>
+            </div>                                                  <!-- Del value se saca el valor en java para trabajar en backend -->
+            <div> 
+                <input type="checkbox" id="nombreACondicirParaLabel2" name="nombreParacheckbox2" value="Opcional para nuestro curso"> 
+                <label for="nombreACoincidirParaLabel2">opción2</label>
+            </div>
+            <div>
+                <input type="checkbox" id="nombreACondicirParaLabel3" name="nombreParacheckbox3" value="Opcional para nuestro curso"> 
+                <label for="nombreACoincidirParaLabel3">opción3</label>
+            </div>
+
+            <!-- tipo select => Cada opción debe ser type option -->
+            <label>Título del select</label>
+            <div> <!-- Para más comodidad hago div por cada pareja label + input. Los nombres que sean iguales deben coindicir -->
+                <select for="nombreACoincidirParaLabel">
+                    <option value="opcion1">Opción1</option>
+                    <option value="opcion2">Opción2</option>
+                    <option value="opcion3">Opción3</option>
+                </select>
+            </div>             
+            
+            <!-- tipo textarea -->
+            <label for="nombreACoincidirTextArea"></label>
+            <textarea name="nombre" id="nombreACoincidirTextArea" cols="30" rows="10"></textarea>
+
+            <!-- fieldset => Para definir una parte del formulario concreta, o todo el formulario dentro de este cajón -->
+            <fieldset>
+                <legend>Fieldset:</legend>
+                <label for="nombreACoincidir1">a1:</label>
+                <input type="text" id="nombreACoincidir1" name="nombre1">
+                <label for="nombreACoincidir2">a2:</label>
+                <input type="text" id="nombreACoincidir2" name="nombre2">
+              </fieldset>
+
+        </div>
+        <!-- Botón de envío de formulario. Value indica el contenido del botón -->
+        <input type="submit" value="Enviar">
+
+    </form>
+
+
+
+
+
+</body>
+</html>

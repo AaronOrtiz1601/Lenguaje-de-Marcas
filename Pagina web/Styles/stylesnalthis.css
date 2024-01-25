@@ -1,3 +1,19 @@
+@keyframes apariciónSimultánea {
+    0% {
+        opacity: 0;
+        transform: translateY(-50px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+header  {
+    animation: apariciónSimultánea 1s ease-in-out;
+}
+.text {
+    animation: apariciónSimultánea 1.5s ease-in-out;
+}
 .Inicio
 {
     width: 100vw;
@@ -70,7 +86,7 @@ body{
     width: 100vw;
     background-color:#123c50;
     height: 55vh;
-    width: 20vw;
+   
    
 }
 .mundos > div {
@@ -86,6 +102,7 @@ body{
     border-radius: 5%;
     transition: transform 0.3s;
     color: #002653;
+    
 
 }
 .info
@@ -104,4 +121,128 @@ height: 35vh;
     .mundos > div:hover {
         transform: scale(1.1);
     }
+}
+@media only screen and (max-width: 768px) {
+    .mundos {
+        flex-direction: wrap;
+        height:auto;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .mundos > div {
+        width: 55%;
+        margin: 5px ;
+       
+    }
+    
+    .miImagen {
+        width: 70%; 
+        height: auto;
+    }
+    .text
+    {
+ 
+    height: auto;
+    text-align: center;
+    }
+    .Inicio
+{
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    width: auto;
+    height: auto;
+    flex-direction: wrap;
+}
+header h1
+{
+    color:#146682;
+    text-align:center;
+    padding-left: 140px;
+   
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-y:scroll;
+    box-shadow: 1px 1px 1px;
+    overflow-x: hidden;
+    
+    
+
+}
+.info
+{
+    font-size: xx-small;
+}
+
+}
+@media screen and (min-width: 768px) and (max-width: 1024px)
+{
+    .mundos {
+        flex-direction: wrap;
+        height: auto;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    .mundos > div {
+        width: 50%;
+        margin: 10px ;
+    }
+   
+    .miImagen {
+        width: 75%; 
+        height: auto;
+    }
+    .text
+    {
+ 
+    height: auto;
+    text-align: center;
+    }
+    .Inicio
+{
+    width: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+header{
+    width: auto;
+    height: auto;
+    flex-direction: wrap;
+}
+header h1
+{
+    color:#146682;
+    text-align:center;
+    padding-left: 140px;
+   
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow-y:scroll;
+    box-shadow: 1px 1px 1px;
+    overflow-x: hidden;
+    
+    
+
+}
+.info
+{
+    font-size: x-small;
+}
+
 }

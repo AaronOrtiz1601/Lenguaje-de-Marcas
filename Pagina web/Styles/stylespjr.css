@@ -14,7 +14,6 @@ header  {
 .text {
     animation: apariciónSimultánea 1.5s ease-in-out;
 }
-
 .Inicio
 {
     width: 100vw;
@@ -110,21 +109,21 @@ height: 35vh;
 
 }
 .roshar{
-    background: linear-gradient(rgba(164, 145, 197, 0.314), rgba(157, 142, 183, 0.21)), url("https://m.media-amazon.com/images/I/51Qh9KpS2CL.jpg");
+    background: linear-gradient(rgba(164, 145, 197, 0.314), rgba(157, 142, 183, 0.21)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRak4iRiUHRPQLh82WXatVmSqzFFyacZo8-q3v39SUx-g&s");
     background-size: cover;
     background-position: center;
   
 }
 .nalthis
 {
-    background: linear-gradient(rgba(164, 145, 197, 0.314), rgba(157, 142, 183, 0.21)), url("https://m.media-amazon.com/images/I/81LBim3i3HL._AC_UF894,1000_QL80_.jpg");
+    background: linear-gradient(rgba(164, 145, 197, 0.314), rgba(157, 142, 183, 0.21)), url("https://m.media-amazon.com/images/I/91o-KEcteNL._AC_UF1000,1000_QL80_.jpg");
     background-size: cover;
     background-position: center;
     
 }
 .scadrial
 {
-    background: linear-gradient(rgba(164, 145, 197, 0.314), rgba(157, 142, 183, 0.21)), url("https://m.media-amazon.com/images/I/91aS6KfXULL._AC_UF894,1000_QL80_.jpg");
+    background: linear-gradient(rgba(164, 145, 197, 0.314), rgba(157, 142, 183, 0.21)), url("https://m.media-amazon.com/images/I/812uNBAAC1L._AC_UF1000,1000_QL80_.jpg");
     background-size: cover;
     background-position: center;
     
@@ -133,22 +132,14 @@ height: 35vh;
 }
 .elantris
 {
-    background: linear-gradient(rgba(164, 145, 197, 0.314), rgba(157, 142, 183, 0.21)), url("https://m.media-amazon.com/images/I/91Nb4w7arrL._AC_UF1000,1000_QL80_.jpg");
+    background: linear-gradient(rgba(164, 145, 197, 0.314), rgba(157, 142, 183, 0.21)), url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvBt7Wz-fuUXkjxry1UX9dv3J4Txs0QdYDvW8YFVXr8w&s");
     background-size: cover;
     background-position: center;
     
     
     
 }
-.amanecer
-{
-    background: linear-gradient(rgba(164, 145, 197, 0.314), rgba(157, 142, 183, 0.21)), url("https://m.media-amazon.com/images/I/81H5Tpx9IfL._AC_UF1000,1000_QL80_.jpg");
-    background-size: cover;
-    background-position: center;
-    
-    
-    
-}
+
 @media (hover: hover) {
     .mundos > div:hover {
         transform: scale(1.1);
@@ -160,13 +151,11 @@ height: 35vh;
         height:auto;
         align-items: center;
         justify-content: center; 
-        width: auto;
     }
 
     .mundos > div {
         width: 60%;
-        margin: 5px;
-       
+        margin: 5px ;
        
     }
     
@@ -198,7 +187,6 @@ header h1
     color:#146682;
     text-align:center;
     padding-left: 140px;
-    
    
 }
 body{
@@ -216,7 +204,10 @@ body{
 .info
 {
     font-size: xx-small;
-    padding: 8px;
+}
+.info p 
+{
+    font-size: medium;
 }
 
 }
@@ -279,6 +270,10 @@ body{
 .info
 {
     font-size: x-small;
+}
+.info p 
+{
+    font-size: large;
 }
 
 }
